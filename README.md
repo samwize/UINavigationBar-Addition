@@ -5,11 +5,6 @@
 
 ## Usage
 
-To run the Xcode project; clone the repo, and run `pod install`.
-
-
-## Installation
-
 UINavigationBar+Addition is available through [CocoaPods](http://cocoapods.org), to install, simply add the following line to your Podfile:
 
     pod "UINavigationBar+Addition"
@@ -20,11 +15,11 @@ In your view controller, import the category header file.
 
 Hide the hairline in `viewDidLoad`.
 
-    - (void)viewDidLoad
-    {
+    - (void)viewDidLoad {
         [super viewDidLoad];
 
-
+        UINavigationBar *navigationBar = self.navigationController.navigationBar;
+        [navigationBar hideBottomHairline];
     }
 
 
