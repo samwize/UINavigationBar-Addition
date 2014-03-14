@@ -1,7 +1,7 @@
 # UINavigationBar+Addition
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/UINavigationBar+Addition/badge.png)](http://cocoadocs.org/docsets/UIView+CustomFonts)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/UINavigationBar+Addition/badge.png)](http://cocoadocs.org/docsets/UIView+CustomFonts)
+[![Version](http://cocoapod-badges.herokuapp.com/v/UINavigationBar+Addition/badge.png)](http://cocoadocs.org/docsets/UINavigationBar+Addition)
+[![Platform](http://cocoapod-badges.herokuapp.com/p/UINavigationBar+Addition/badge.png)](http://cocoadocs.org/docsets/UINavigationBar+Addition)
 
 ## Usage
 
