@@ -6,10 +6,10 @@ Pod::Spec.new do |s|
                        Easily hide or show the bottom hairline of UINavigationBar.
 
                        DESC
-  s.homepage         = "https://github.com/samwize/UINavigationBar+Addition"
+  s.homepage         = "https://github.com/samwize/UINavigationBar-Addition"
   s.license          = 'MIT'
   s.author           = { "Junda" => "junda@just2us.com" }
-  s.source           = { :git => "https://github.com/samwize/UINavigationBar+Addition.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/samwize/UINavigationBar-Addition.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/samwize'
 
   s.platform     = :ios, '7.0'
