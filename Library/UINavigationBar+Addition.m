@@ -41,5 +41,13 @@
     return nil;
 }
 
+- (void)makeTransparent {
+    [self setTranslucent:YES];
+    [self setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+    self.backgroundColor = [UIColor clearColor];
+    self.shadowImage = [UIImage new];    // Hides the hairline
+    [self hideBottomHairline];
+}
+
 
 @end

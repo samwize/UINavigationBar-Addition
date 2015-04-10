@@ -13,7 +13,9 @@ In your view controller, import the category header file.
 
     #import "UINavigationBar+Addition.h"
 
-Hide the hairline in `viewDidLoad`.
+### Hide Hairline
+
+Hide the (1px bottom) hairline of nav bar
 
     - (void)viewDidLoad {
         [super viewDidLoad];
@@ -21,6 +23,10 @@ Hide the hairline in `viewDidLoad`.
         UINavigationBar *navigationBar = self.navigationController.navigationBar;
         [navigationBar hideBottomHairline];
     }
+
+### Make Transparent
+
+Or make the whole nav bar transparent with `[navigationBar makeTransparent]`;
 
 
 ## Author

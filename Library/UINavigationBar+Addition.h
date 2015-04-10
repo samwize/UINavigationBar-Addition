@@ -12,5 +12,6 @@
 
 - (void)hideBottomHairline;
 - (void)showBottomHairline;
+- (void)makeTransparent;
 
 @end

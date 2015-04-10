@@ -20,7 +20,8 @@
     [super viewDidLoad];
 
     UINavigationBar *navigationBar = self.navigationController.navigationBar;
-    [navigationBar hideBottomHairline];
+//    [navigationBar hideBottomHairline];
+    [navigationBar makeTransparent];
 }
 
 - (void)didReceiveMemoryWarning
