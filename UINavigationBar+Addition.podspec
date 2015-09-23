@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = "UINavigationBar+Addition"
-  s.version          = "1.0.0"
-  s.summary          = "Hide bottom hairline of navigation bar"
+  s.version          = "1.2.0"
+  s.summary          = "Customize UINavigationBar easily - make transparent, hide bottom hairline"
   s.description      = <<-DESC
-                       Easily hide or show the bottom hairline of UINavigationBar.
+                       Make navigation bar transparent, or hide bottom hairline.
 
                        DESC
   s.homepage         = "https://github.com/samwize/UINavigationBar-Addition"
