@@ -10,17 +10,11 @@
 
 @implementation UINavigationBar (Addition)
 
-/**
- * Hide 1px hairline of the nav bar
- */
 - (void)hideBottomHairline {
     UIImageView *navBarHairlineImageView = [self findHairlineImageViewUnder:self];
     navBarHairlineImageView.hidden = YES;
 }
 
-/**
- * Show 1px hairline of the nav bar
- */
 - (void)showBottomHairline {
     // Show 1px hairline of translucent nav bar
     UIImageView *navBarHairlineImageView = [self findHairlineImageViewUnder:self];
@@ -41,9 +35,6 @@
     return nil;
 }
 
-/**
- * Makes the navigation bar background transparent.
- */
 - (void)makeTransparent {
   [self setTranslucent:YES];
   [self setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
@@ -52,9 +43,6 @@
   [self hideBottomHairline];
 }
 
-/**
- * Restores the default navigation bar appeareance
- */
 - (void)makeDefault {
   [self setTranslucent:YES];
   [self setBackgroundImage:nil forBarMetrics:UIBarMetricsDefault];
