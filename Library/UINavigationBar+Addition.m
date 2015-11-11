@@ -41,12 +41,26 @@
     return nil;
 }
 
+/**
+ * Makes the navigation bar background transparent.
+ */
 - (void)makeTransparent {
-    [self setTranslucent:YES];
-    [self setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
-    self.backgroundColor = [UIColor clearColor];
-    self.shadowImage = [UIImage new];    // Hides the hairline
-    [self hideBottomHairline];
+  [self setTranslucent:YES];
+  [self setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+  self.backgroundColor = [UIColor clearColor];
+  self.shadowImage = [UIImage new];    // Hides the hairline
+  [self hideBottomHairline];
+}
+
+/**
+ * Restores the default navigation bar appeareance
+ */
+- (void)makeDefault {
+  [self setTranslucent:YES];
+  [self setBackgroundImage:nil forBarMetrics:UIBarMetricsDefault];
+  self.backgroundColor = nil;
+  self.shadowImage = nil;    // Hides the hairline
+  [self showBottomHairline];
 }
 
 

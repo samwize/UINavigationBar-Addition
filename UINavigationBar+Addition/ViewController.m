@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "UINavigationBar+Addition.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()
 
@@ -18,9 +19,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+}
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
     UINavigationBar *navigationBar = self.navigationController.navigationBar;
-//    [navigationBar hideBottomHairline];
     [navigationBar makeTransparent];
 }
 

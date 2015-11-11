@@ -14,4 +14,9 @@
 - (void)showBottomHairline;
 - (void)makeTransparent;
 
+/**
+ * Restores the default navigation bar appeareance
+ **/
+- (void)makeDefault;
+
 @end
