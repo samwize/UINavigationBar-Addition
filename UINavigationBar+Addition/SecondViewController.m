@@ -20,6 +20,8 @@
   
     UINavigationBar *navigationBar = self.navigationController.navigationBar;
     [navigationBar makeDefault];
+  
+    navigationBar.tintColor = [UIColor whiteColor];
 }
 
 @end
