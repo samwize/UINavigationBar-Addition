@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "UINavigationBar+Addition.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()
 
@@ -18,10 +19,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+}
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+  
     UINavigationBar *navigationBar = self.navigationController.navigationBar;
-//    [navigationBar hideBottomHairline];
+    // This code do make the navigation bar transparent is in the viewWillAppear to make the navigation bar background dissapear whenever this view is displayed.
+    // If the navigation bar is always hidden, then use this on the viewDidLoad
     [navigationBar makeTransparent];
+    navigationBar.tintColor = nil;
 }
 
 - (void)didReceiveMemoryWarning

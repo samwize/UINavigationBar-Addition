@@ -10,8 +10,24 @@
 
 @interface UINavigationBar (Addition)
 
+/**
+ * Hide 1px hairline of the nav bar
+ */
 - (void)hideBottomHairline;
+
+/**
+ * Show 1px hairline of the nav bar
+ */
 - (void)showBottomHairline;
+
+/**
+ * Makes the navigation bar background transparent.
+ */
 - (void)makeTransparent;
+
+/**
+ * Restores the default navigation bar appeareance
+ **/
+- (void)makeDefault;
 
 @end

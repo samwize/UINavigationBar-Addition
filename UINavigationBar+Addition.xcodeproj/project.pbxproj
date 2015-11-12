@@ -24,6 +24,7 @@
 		3ECB1AF718D2D3B0008E2C3E /* UINavigationBar_AdditionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB1AF618D2D3B0008E2C3E /* UINavigationBar_AdditionTests.m */; };
 		3ECB1B0318D2D41A008E2C3E /* UINavigationBar+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB1B0218D2D41A008E2C3E /* UINavigationBar+Addition.m */; };
 		3ECB1B0418D2D41A008E2C3E /* UINavigationBar+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB1B0218D2D41A008E2C3E /* UINavigationBar+Addition.m */; };
+		E6083D991BF3FEAF00B181C3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6083D981BF3FEAF00B181C3 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		3ECB1AF618D2D3B0008E2C3E /* UINavigationBar_AdditionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UINavigationBar_AdditionTests.m; sourceTree = "<group>"; };
 		3ECB1B0118D2D41A008E2C3E /* UINavigationBar+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Addition.h"; sourceTree = "<group>"; };
 		3ECB1B0218D2D41A008E2C3E /* UINavigationBar+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Addition.m"; sourceTree = "<group>"; };
+		E6083D971BF3FEAF00B181C3 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E6083D981BF3FEAF00B181C3 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				3ECB1ADD18D2D3AF008E2C3E /* Main_iPad.storyboard */,
 				3ECB1AE018D2D3B0008E2C3E /* ViewController.h */,
 				3ECB1AE118D2D3B0008E2C3E /* ViewController.m */,
+				E6083D971BF3FEAF00B181C3 /* SecondViewController.h */,
+				E6083D981BF3FEAF00B181C3 /* SecondViewController.m */,
 				3ECB1AE318D2D3B0008E2C3E /* Images.xcassets */,
 				3ECB1ACF18D2D3AF008E2C3E /* Supporting Files */,
 			);
@@ -267,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6083D991BF3FEAF00B181C3 /* SecondViewController.m in Sources */,
 				3ECB1AE218D2D3B0008E2C3E /* ViewController.m in Sources */,
 				3ECB1AD918D2D3AF008E2C3E /* AppDelegate.m in Sources */,
 				3ECB1AD518D2D3AF008E2C3E /* main.m in Sources */,
@@ -486,6 +492,7 @@
 				3ECB1AFC18D2D3B0008E2C3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3ECB1AFD18D2D3B0008E2C3E /* Build configuration list for PBXNativeTarget "UINavigationBar+AdditionTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +501,7 @@
 				3ECB1AFF18D2D3B0008E2C3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

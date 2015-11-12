@@ -10,17 +10,11 @@
 
 @implementation UINavigationBar (Addition)
 
-/**
- * Hide 1px hairline of the nav bar
- */
 - (void)hideBottomHairline {
     UIImageView *navBarHairlineImageView = [self findHairlineImageViewUnder:self];
     navBarHairlineImageView.hidden = YES;
 }
 
-/**
- * Show 1px hairline of the nav bar
- */
 - (void)showBottomHairline {
     // Show 1px hairline of translucent nav bar
     UIImageView *navBarHairlineImageView = [self findHairlineImageViewUnder:self];
@@ -42,11 +36,19 @@
 }
 
 - (void)makeTransparent {
-    [self setTranslucent:YES];
-    [self setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
-    self.backgroundColor = [UIColor clearColor];
-    self.shadowImage = [UIImage new];    // Hides the hairline
-    [self hideBottomHairline];
+  [self setTranslucent:YES];
+  [self setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+  self.backgroundColor = [UIColor clearColor];
+  self.shadowImage = [UIImage new];    // Hides the hairline
+  [self hideBottomHairline];
+}
+
+- (void)makeDefault {
+  [self setTranslucent:YES];
+  [self setBackgroundImage:nil forBarMetrics:UIBarMetricsDefault];
+  self.backgroundColor = nil;
+  self.shadowImage = nil;    // Hides the hairline
+  [self showBottomHairline];
 }
 
 
