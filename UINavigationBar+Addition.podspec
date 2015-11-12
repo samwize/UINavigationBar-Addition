@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "UINavigationBar+Addition"
-  s.version          = "1.2.0"
+  s.version          = "1.3.0"
   s.summary          = "Customize UINavigationBar easily"
   s.description      = <<-DESC
                        Make navigation bar transparent, or hide bottom hairline.
